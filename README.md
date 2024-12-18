@@ -3,9 +3,9 @@
 ---
 # Mục lục
 
-[## I. Mở đầu](#Modau)
+## [I. Mở đầu](#Modau)
 
-[## II. Ngôn ngữ Markdown](#ngonngumarkdown)
+## [II. Ngôn ngữ Markdown](#ngonngumarkdown)
 - [1. Thẻ tiêu đề](#thetieude)
 - [2. Chèn link, chèn ảnh](#chenlinkchenanh)
 - [3. Ký tự in đậm, in nghiêng](#kytuindaminnghieng)
