@@ -50,7 +50,7 @@
 
 **Git** là một phần mềm dùng để quản lý phiên bản của mã nguồn, tương tự như **SVN**, nhưng có nhiều ưu điểm hơn. Hiện nay, Git đang được sử dụng rộng rãi trong các dự án phát triển phần mềm.  
 
-Trong bài viết này, tôi sẽ chia sẻ về **Git** dưới góc nhìn cá nhân, đặc biệt hướng tới các bạn làm sysadmin. Rất mong nhận được ý kiến đóng góp từ các bạn!
+Trong bài viết này, ta sẽ chia sẻ về **Git** dưới góc nhìn cá nhân, đặc biệt hướng tới các bạn làm sysadmin. Rất mong nhận được ý kiến đóng góp từ các bạn!
 
 ---
 
@@ -71,7 +71,7 @@ Hãy tưởng tượng bạn có một đoạn script dài 20 dòng. Hôm sau, b
 - **Github Free**: Mã nguồn sẽ công khai, phù hợp cho các dự án mã nguồn mở. Bạn có thể sử dụng Github như một blog cá nhân (tương tự Blogspot, WordPress).  
 - **Github Trả phí**: Cho phép bạn tạo kho mã nguồn riêng tư (private).  
 
-**Cá nhân tôi thấy rằng** phiên bản miễn phí đã đủ để lưu trữ và chia sẻ thông tin hiệu quả.
+**Cá nhân ta thấy rằng** phiên bản miễn phí đã đủ để lưu trữ và chia sẻ thông tin hiệu quả.
 
 ---
 
@@ -79,11 +79,11 @@ Hãy tưởng tượng bạn có một đoạn script dài 20 dòng. Hôm sau, b
 
 #### **Bước 1: Đăng ký tài khoản tại [Github](https://github.com)**  
 
-Hãy đăng ký và đăng nhập tài khoản. Tôi tin rằng nếu bạn đã đọc đến đây, chắc chắn bạn biết cách thực hiện bước này. 😊  
+Hãy đăng ký và đăng nhập tài khoản. ta tin rằng nếu bạn đã đọc đến đây, chắc chắn bạn biết cách thực hiện bước này. 😊  
 
 #### **Bước 2: Học ngôn ngữ Markdown**  
 
-Bạn có thể bỏ qua bước này nếu đã biết Markdown hoặc không có ý định sử dụng nó để viết bài. Tuy nhiên, tôi khuyến khích bạn nên học Markdown vì nó giúp bài viết trên Github trở nên rõ ràng và đẹp mắt hơn.  
+Bạn có thể bỏ qua bước này nếu đã biết Markdown hoặc không có ý định sử dụng nó để viết bài. Tuy nhiên, ta khuyến khích bạn nên học Markdown vì nó giúp bài viết trên Github trở nên rõ ràng và đẹp mắt hơn.  
 
 - Thời gian học: Khoảng 2 giờ là đủ để nắm các cú pháp cơ bản.  
 
@@ -93,7 +93,7 @@ Bạn có thể bỏ qua bước này nếu đã biết Markdown hoặc không c
 - Tạo các repo khác theo mục đích sử dụng.  
 - Clone repo về máy (client) và bắt đầu code.  
 
-Chi tiết cách thực hiện bước này sẽ được tôi hướng dẫn ở phần sau của bài viết.  
+Chi tiết cách thực hiện bước này sẽ được ta hướng dẫn ở phần sau của bài viết.  
 
 ---
 
@@ -102,11 +102,11 @@ Chi tiết cách thực hiện bước này sẽ được tôi hướng dẫn �
 
 Ngôn ngữ này khá đơn giản, bạn có thể đọc tại [đây](http://daringfireball.net/projects/markdown/syntax) để biết cách sử dụng.
 
-Nhưng với tôi, tôi không dùng hết từng ấy thứ cho nên tôi chỉ nhớ một số cái tôi hay dùng, cách tôi dùng như sau:
+Nhưng với ta, ta không dùng hết từng ấy thứ cho nên ta chỉ nhớ một số cái ta hay dùng, cách ta dùng như sau:
 
 Tạo một file có tên bất kỳ với đuôi .md. Có thể dùng `notepad`, `notepad++`, `vi`, `nano`,... hay bất cứ thứ gì mà bạn muốn.
 
-Một số phương pháp tôi hay sử dụng để viết:
+Một số phương pháp ta hay sử dụng để viết:
 
 <a name="thetieude"></a>
 ### 1. Thẻ tiêu đề
@@ -162,7 +162,7 @@ Kết quả là:
 <img src="link_anh_cua_ban">
 ```
 
-Tôi thường sử dụng công cụ [Lightshot](https://app.prntscr.com/en/index.html) để chụp ảnh màn hình và up hình đó lên trang http://i.imgur.com/ để lấy đường dẫn ảnh đưa vào Github
+ta thường sử dụng công cụ [Lightshot](https://app.prntscr.com/en/index.html) để chụp ảnh màn hình và up hình đó lên trang http://i.imgur.com/ để lấy đường dẫn ảnh đưa vào Github
 
 Hai công cụ này khá dễ sử dụng, bạn chỉ cần chụp màn hình bằng Lightshot ấn Ctrl + C để copy và Ctrl + V để paste vào trình duyệt tại trang web http://i.imgur.com/
 
@@ -287,9 +287,9 @@ Như vậy bạn đã có thể trình bày github của mình một cách sáng
 <a name="repo"></a>
 ### 0. Repo
 
-Git là một công cụ để quản lý mã nguồn, nhưng tôi không phải là một coder nên tôi sẽ không sử dụng Git theo cách mà các coder hay sử dụng.
-Tôi sử dụng git và github để lưu trữ các file cấu hình của mình, các script, viết các bài hướng dẫn, các bản nháp,...
-Các repo là những nơi tôi phân loại, lưu trữ những thứ bên trên và nó được lưu cả ở máy trạm và ở server github.
+Git là một công cụ để quản lý mã nguồn, nhưng ta không phải là một coder nên ta sẽ không sử dụng Git theo cách mà các coder hay sử dụng.
+ta sử dụng git và github để lưu trữ các file cấu hình của mình, các script, viết các bài hướng dẫn, các bản nháp,...
+Các repo là những nơi ta phân loại, lưu trữ những thứ bên trên và nó được lưu cả ở máy trạm và ở server github.
 Để làm việc với repo thì bạn phải hiểu về nó. Một số điều bạn cần biết là: 
 
 **Ba trạng thái của một repo:**
@@ -439,7 +439,7 @@ hoặc: `git clone https://github.com/ducnc92/demo1.git /opt/demo` để clone v
 
 <img src=http://i.imgur.com/1DozAVz.png>
 
-Ở đây tôi sử dụng lệnh `git clone git@github.com:ducnc92/demo1.git`
+Ở đây ta sử dụng lệnh `git clone git@github.com:ducnc92/demo1.git`
 
 Lúc này trong thư mục hiện tại sẽ có thêm thư mục demo1 chứa các file trong repo trên github.
 
@@ -460,7 +460,7 @@ Xin chao!
 Toi la Ducnc.
 ```
 
-Tạo một thư mục mới, chẳng hạn tên là script để chứa các script của tôi.
+Tạo một thư mục mới, chẳng hạn tên là script để chứa các script của ta.
 
 > mkdir script
 
@@ -615,7 +615,7 @@ Lúc này vào trang cá nhân của bạn sẽ thấy tại mục Organizations
 
 <img src=http://ducnc.imgur.com/all/>
 
-Ở đây tôi sẽ tạo một team mới như hình sau:
+Ở đây ta sẽ tạo một team mới như hình sau:
 
 <img src=http://i.imgur.com/7kWLNYE.png>
 
@@ -644,7 +644,7 @@ Sẽ cập nhật và bổ sung sau
 ### 5. Issues
 
 
-Giả sử bạn đang theo dõi repo của tôi và thấy có một số chỗ cần sửa đổi, bạn có thể comment ý kiến của mình vào Repo đó. Sau đó người quản trị sẽ xem xét, thay đổi và trả lời bạn.
+Giả sử bạn đang theo dõi repo của ta và thấy có một số chỗ cần sửa đổi, bạn có thể comment ý kiến của mình vào Repo đó. Sau đó người quản trị sẽ xem xét, thay đổi và trả lời bạn.
 
 Để làm việc này bạn cần vào repo đó, click vào `Issue`. Ví dụ như hình sau:
 
@@ -665,14 +665,6 @@ Bằng cách tạo issue, bạn có thể đăng các câu hỏi, thắc mắc c
 <a name="Tongket"></a>
 ## Tổng kết 
 
-Bài viết trên tôi tổng hợp lại những kiến thức thu được khi sử dụng git và github cho công việc của tôi (sys admin), hi vọng nó giúp các bạn một phần nào đó.
 
-Chắc chắn bài viết còn có nhiều thiếu sót, mong các bạn thông cảm và gửi feedback cho tôi để hoàn thiện thêm.
+# NGUỒN THAM KHẢO
 
-Liên lạc của tôi:
-
-- Email: nguyencongduc3112@gmail.com
-
-- Skype: khong_giong_ai
-
-Xin chân thành cảm ơn!
