@@ -1,7 +1,7 @@
 ﻿
-## Git và Github cho sysadmin
-
-### Mục lục
+# Thao tác Git và Github
+---
+# Mục lục
 
 [I. Mở đầu](#Modau)
 
@@ -39,7 +39,7 @@
 	
 [Tổng kết](#Tongket)
 
-===========================
+---
 
 <a name="Modau"></a>
 ## I. Mở đầu
