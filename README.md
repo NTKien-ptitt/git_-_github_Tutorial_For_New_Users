@@ -3,9 +3,9 @@
 ---
 # Mục lục
 
-[I. Mở đầu](#Modau)
+[## I. Mở đầu](#Modau)
 
-[II. Ngôn ngữ Markdown](#ngonngumarkdown)
+[## II. Ngôn ngữ Markdown](#ngonngumarkdown)
 - [1. Thẻ tiêu đề](#thetieude)
 - [2. Chèn link, chèn ảnh](#chenlinkchenanh)
 - [3. Ký tự in đậm, in nghiêng](#kytuindaminnghieng)
@@ -14,7 +14,7 @@
 - [6. Tạo bảng](#taobang)
 - [Mẹo](#meo)
 	
-[III. Các thao tác với git và github](#cacthaotacvoigitvagithub)
+[## III. Các thao tác với git và github](#cacthaotacvoigitvagithub)
 - [0. Repo](#repo)
 - [1. Cài đặt](#caidat)
 
@@ -37,7 +37,7 @@
 - [4. Thao tác với nhánh (branch)](#4)
 - [5. Issues](#5)
 	
-[IV. Tổng kết](#Tongket)
+[## IV. Tổng kết](#Tongket)
 
 ---
 
