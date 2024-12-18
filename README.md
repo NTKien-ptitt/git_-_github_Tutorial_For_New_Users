@@ -44,42 +44,58 @@
 <a name="Modau"></a>
 ## I. Mở đầu
 
-- `Git` là một phần mềm dùng để quản lý phiên bản của mã nguồn tương tự như `SVN` nhưng có nhiều ưu điểm hơn, `Git` đang được sủ dụng rộng rãi hiện nay.
-Tuy nhiên trong bài viết này, tôi sẽ nói về git một cách "cá nhân" hơn, mang tính chia sẻ những cái tôi hay làm và hướng tới những người là sysadmin. Mong nhận được ý kiến đóng góp của các bạn.
+### Định dạng lại bài viết về Git và Github
 
-#### Một số khái niệm cần làm rõ
+---
 
-**`Git` và `Github` khác nhau như thế nào?**
+**Git** là một phần mềm dùng để quản lý phiên bản của mã nguồn, tương tự như **SVN**, nhưng có nhiều ưu điểm hơn. Hiện nay, Git đang được sử dụng rộng rãi trong các dự án phát triển phần mềm.  
 
-Lấy ví dụ, bạn có một đoạn script dài 20 dòng, hôm sau bạn tối ưu nó đi, chỉ còn 15 dòng, một ngày khác bạn sửa ở script đó một vài chỗ. Git ghi lại những thời điểm thay đổi đó của bạn và source code của bạn tại thời điểm đó.
+Trong bài viết này, tôi sẽ chia sẻ về **Git** dưới góc nhìn cá nhân, đặc biệt hướng tới các bạn làm sysadmin. Rất mong nhận được ý kiến đóng góp từ các bạn!
 
-Github là một trang web, cho phép bạn lưu source code của mình lên đó. Sự kết hợp hoàn hảo giữa Git và Github mang lại một sự thuận tiện không hề nhỏ cho người dùng. Bạn có thể thay đổi đoạn code của mình mọi lúc mọi nơi mà không sợ bị ghi đè lên hay bị mất dữ liệu do hỏng hóc vì dữ liệu của bạn được lưu cả trên trang web Github và máy cá nhân. Bạn cũng có thể khôi phục được code của mình về một thời điểm bất kỳ nào đó.
+---
 
-Github có bản free và mất phí. Với Github free thì source code của bạn sẽ công khai, có nghĩa là ai cũng có thể xem code của bạn. Nó phù hợp với các phần mềm nguồn mở, và cũng có thể trở thành một blog cá nhân của chính các bạn như các trang blogspot, wordpress,...
+### Một số khái niệm cần làm rõ
 
-Muốn có thể tạo một kho code bí mật của riêng mình thì bạn phải trả phí.
+#### **`Git` và `Github` khác nhau như thế nào?**
 
-Đối với cá nhân tôi thì github free là quá đủ cho mục đích lưu trữ và chia sẻ thông tin.
+Hãy tưởng tượng bạn có một đoạn script dài 20 dòng. Hôm sau, bạn tối ưu nó, rút gọn xuống còn 15 dòng. Một ngày khác, bạn chỉnh sửa thêm một vài chỗ. **Git** sẽ ghi lại tất cả những thời điểm thay đổi đó, giúp bạn xem lại trạng thái mã nguồn tại bất kỳ thời điểm nào.  
 
-**Cần phải làm gì để có thể sử dụng `Github`?**
+**Github** là một trang web cho phép bạn lưu trữ mã nguồn lên nền tảng trực tuyến. Sự kết hợp giữa **Git** và **Github** mang lại rất nhiều tiện ích. Bạn có thể:  
 
-- B1: Đăng ký một tài khoản tại [github](https://github.com) và đăng nhập
+- Thay đổi mã nguồn mọi lúc mọi nơi mà không lo bị ghi đè.  
+- Khôi phục mã nguồn về một thời điểm bất kỳ.  
+- Lưu trữ dữ liệu an toàn trên cả Github và máy cá nhân.  
 
-Tôi chắc chắn rằng một khi bạn đã đọc đến đây thì bạn đã biết thực hiện bước trên như thế nào :)
+**Github** cung cấp cả phiên bản miễn phí và trả phí:  
 
-- B2: Học cách sử dụng ngôn ngữ `Markdown`
+- **Github Free**: Mã nguồn sẽ công khai, phù hợp cho các dự án mã nguồn mở. Bạn có thể sử dụng Github như một blog cá nhân (tương tự Blogspot, WordPress).  
+- **Github Trả phí**: Cho phép bạn tạo kho mã nguồn riêng tư (private).  
 
-Bạn có thể bỏ qua bước này nếu bạn đã biết hoặc các bạn xác định không sử dụng nó để viết.
+**Cá nhân tôi thấy rằng** phiên bản miễn phí đã đủ để lưu trữ và chia sẻ thông tin hiệu quả.
 
-Theo cá nhân tôi thì các bạn nên viết bằng Markdown trong Github vì nó sẽ mang lại sự tường minh cho bài viết của bạn.
+---
 
-Bạn chỉ cần bỏ ra khoảng 2h là đã có thể sử dụng ngôn ngữ này như ý muốn.
+### Làm thế nào để sử dụng `Github`?
 
-- B3: Tạo một repo đầu tiên và gõ Hello world bằng Markdown
+#### **Bước 1: Đăng ký tài khoản tại [Github](https://github.com)**  
 
-Sau đó tạo các repo tùy mục đích, clone nó về client và code.
+Hãy đăng ký và đăng nhập tài khoản. Tôi tin rằng nếu bạn đã đọc đến đây, chắc chắn bạn biết cách thực hiện bước này. 😊  
 
-Bước này tôi sẽ hướng dẫn chi tiết hơn ở phần sau.
+#### **Bước 2: Học ngôn ngữ Markdown**  
+
+Bạn có thể bỏ qua bước này nếu đã biết Markdown hoặc không có ý định sử dụng nó để viết bài. Tuy nhiên, tôi khuyến khích bạn nên học Markdown vì nó giúp bài viết trên Github trở nên rõ ràng và đẹp mắt hơn.  
+
+- Thời gian học: Khoảng 2 giờ là đủ để nắm các cú pháp cơ bản.  
+
+#### **Bước 3: Tạo một repo đầu tiên**  
+
+- Viết "Hello World" bằng Markdown.  
+- Tạo các repo khác theo mục đích sử dụng.  
+- Clone repo về máy (client) và bắt đầu code.  
+
+Chi tiết cách thực hiện bước này sẽ được tôi hướng dẫn ở phần sau của bài viết.  
+
+---
 
 <a name="ngonngumarkdown"></a>
 ## II. Ngôn ngữ Markdown
