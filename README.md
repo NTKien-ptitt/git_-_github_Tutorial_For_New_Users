@@ -37,7 +37,7 @@
 - [4. Thao tác với nhánh (branch)](#4)
 - [5. Issues](#5)
 	
-[Tổng kết](#Tongket)
+[IV. Tổng kết](#Tongket)
 
 ---
 
